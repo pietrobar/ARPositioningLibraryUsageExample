@@ -27,7 +27,7 @@ class ViewController: UIViewController{
         
         
         //initialize ARPositioning
-        self.arPositioning = ARPositioning(arView: arView, mappingPoints: [CGPoint(x: 670,y: 1365), CGPoint(x: 1030, y: 1360),CGPoint(x: 1026, y: 968)])
+        self.arPositioning = ARPositioning(arView: arView)
         
         arPositioning.setBuilding(building: Building(id: "a", name: "BuildingName", coord: CLLocationCoordinate2D(latitude: 43.779845104199524, longitude: 7.670822335471198)))
         let primoPiano = FloorInfo(id: "0", number: 0, maxWidth: 12.16, maxLenght: 13.75, floorPlan: UIImage(named: "floorplan")!, mapReferenceTriangle: Triangle(point1: CGPoint(x: 670,y: 1365), point2: CGPoint(x: 1030, y: 1360), point3: CGPoint(x: 1026, y: 968)), height: 3)
@@ -38,7 +38,7 @@ class ViewController: UIViewController{
         arView.session.delegate = arPositioning
         //arPositioning.arSessionDelegate = self //allows to have another delegate
         arPositioning.addConfigurationButton() //adds a button to visualize the mapping points on the planimetry
-        arPositioning.arSessionManager.addToolbar() //adds a toolbar to the arview to easily manage session load and save
+        arPositioning.addToolbar() //adds a toolbar to the arview to easily manage session load and save
         arPositioning.manageMappingPoint() //tells the library to manage the insertion of the mapping points
         
         arPositioning.setSessionEventDelegate(sessionEventDelegate: self) //receive session status updates

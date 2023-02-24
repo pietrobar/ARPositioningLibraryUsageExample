@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		3C8D204629A8C62900A95BC4 /* ARPositioning */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ARPositioning; path = ../../../LibreriaSessione/ARPositioningGitLab/ARPositioning; sourceTree = "<group>"; };
+		3C8D204729A8C70900A95BC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3CF0DB4629A8B4D200CE05E3 /* ARPositioningLibraryUsageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPositioningLibraryUsageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF0DB4929A8B4D200CE05E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CF0DB4B29A8B4D200CE05E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 				3CF0DB4F29A8B4D200CE05E3 /* Main.storyboard */,
 				3CF0DB5229A8B4D300CE05E3 /* Assets.xcassets */,
 				3CF0DB5429A8B4D300CE05E3 /* LaunchScreen.storyboard */,
+				3C8D204729A8C70900A95BC4 /* README.md */,
 			);
 			path = ARPositioningLibraryUsageExample;
 			sourceTree = "<group>";
